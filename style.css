@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700;800&family=Outfit:wght@400;700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color:hsl(212, 45%, 89%); 
+    min-height: 100vh;
+    font-size: 15px;
+    
+    align-items: center;
+    display: flex;
+}
+
+.conteiner{
+   max-width: 350px;
+   margin:0 auto;
+}
+
+.Qrcard{
+    background-color: #ffffff;
+    border-radius: 17px;
+    text-align: center;
+    padding: 18px;
+    margin:15x; 
+}
+.Qrcard img{
+   width:100%;
+   border-radius: 12px;
+}
+
+.texth2{
+    padding: 15px;
+    color: hsl(218, 44%, 22%);
+}
+
+.textp{
+    font-size: 10px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
